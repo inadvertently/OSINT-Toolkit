@@ -42,7 +42,7 @@ def Menu(): #Function respopnsible for entir program. Detecting inputs, sending 
         url = f"https://api.apilayer.com/whois/query?domain=" + choice1 #The api we'll b e using to retrieve the data
         payload = {}
         headers= {
-        "apikey": "tLrmkSKe4X8H0KHz4FqFKWFltJUsYBtO" #Our API key which is NEEDED to fetch/request data
+        "apikey": "API KEY" #Our API key which is NEEDED to fetch/request data
         }
         response = client.request("GET", url, headers=headers, data = payload) #Here we send the request to the url using our API Key
         status_code = response.status_code 
